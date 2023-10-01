@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@tauri-apps/cli": "^1.4.0",
+    "nuxt": "^3.7.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "@tauri-apps/api": "^1.4.0",
+    "pdfjs-dist": "^3.11.174",
+    "pinia": "^2.1.6",
+    "sass": "^1.68.0",
+    "tauri-plugin-store-api": "github:tauri-apps/tauri-plugin-store#v1"
+  }
+}
